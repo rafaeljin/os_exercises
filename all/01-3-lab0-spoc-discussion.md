@@ -48,17 +48,17 @@
 搭建好实验环境，请描述碰到的困难和解决的过程。
 - [x]  
 
-> 
+> 老师给的教程十分具体，没有遇到特别困难，除了碰到了老师给的VirtualBox出现了"failed to install ntcreatesection monitor"的错误，通过从官网重新下载了一个，其他都正常。
 
 熟悉基本的git命令，从github上（http://www.github.com/chyyuu/ucore_lab）下载ucore lab实验
 - [x]  
 
-> 
+> 完成。
 
 尝试用qemu+gdb（or ECLIPSE-CDT）调试lab1
 - [x]  
 
-> 
+> 完成。
 
 如何实现能响应除零错误异常的异常服务例程的lab0？
 - [x]  
