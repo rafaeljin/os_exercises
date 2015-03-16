@@ -1,0 +1,70 @@
+After ini:
+	20:
+		start:0=0K size:20
+After Request 100K:
+A got memory starting at 0K with the size of 2**17
+	17:
+		start:131072=128K size:17
+	18:
+		start:262144=256K size:18
+	19:
+		start:524288=512K size:19
+After Request 240K:
+B got memory starting at 256K with the size of 2**18
+	17:
+		start:131072=128K size:17
+	19:
+		start:524288=512K size:19
+After Request 64K:
+C got memory starting at 128K with the size of 2**16
+	16:
+		start:196608=192K size:16
+	19:
+		start:524288=512K size:19
+After Request 256K:
+D got memory starting at 512K with the size of 2**18
+	16:
+		start:196608=192K size:16
+	18:
+		start:786432=768K size:18
+insert2
+After FRee B:
+	16:
+		start:196608=192K size:16
+	18:
+		start:262144=256K size:18
+		start:786432=768K size:18
+insert1
+After Free A
+	16:
+		start:196608=192K size:16
+	17:
+		start:0=0K size:17
+	18:
+		start:262144=256K size:18
+		start:786432=768K size:18
+After Request 75K:
+E got memory starting at 0K with the size of 2**17
+	16:
+		start:196608=192K size:16
+	18:
+		start:262144=256K size:18
+		start:786432=768K size:18
+insert1
+After FRee C:
+	17:
+		start:131072=128K size:17
+	18:
+		start:262144=256K size:18
+		start:786432=768K size:18
+insert1
+After Free E
+	18:
+		start:786432=768K size:18
+	19:
+		start:0=0K size:19
+insert1
+After Free D
+	20:
+		start:0=0K size:20
+[Finished in 0.4s]
