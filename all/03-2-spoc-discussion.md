@@ -83,7 +83,7 @@ Virtual Address 7268:
     --> pte index:0x13  pte contents:(valid 1, pfn 0x65)
       --> Translates to Physical Address 0xca8 --> Value: 16
 ```
-		说明：in.txt是内存内容，temp.txt是整理以后的,inputdata.txt是输入,out.txt是输出结果也就是下面的结果，除了最后的value是10进制结果以外其他都是hex。
+		说明：pagetable.cpp是源程序，in.txt是内存内容，temp.txt是整理以后的,inputdata.txt是输入,out.txt是输出结果也就是下面的结果，除了最后的value是10进制结果以外其他都是hex。
 		Virtual Address 6c74:
 		--> pde index:0X1b  pde contents:(valid 1, pfn 0X20)
 			--> pte index:0X3  pte contents:(valid 1, pfn 0X61)
@@ -135,6 +135,8 @@ Virtual Address 7268:
 
 
 （3）请基于你对原理课二级页表的理解，并参考Lab2建页表的过程，设计一个应用程序（可基于python, ruby, C, C++，LISP等）可模拟实现(2)题中描述的抽象OS，可正确完成二级页表转换。
+		已经在第二题中完成。
+		说明：pagetable.cpp是源程序，in.txt是内存内容，temp.txt是整理以后的,inputdata.txt是输入,out.txt是输出结果也就是下面的结果，除了最后的value是10进制结果以外其他都是hex。
 
 
 （4）假设你有一台支持[反置页表](http://en.wikipedia.org/wiki/Page_table#Inverted_page_table)的机器，请问你如何设计操作系统支持这种类型计算机？请给出设计方案。
