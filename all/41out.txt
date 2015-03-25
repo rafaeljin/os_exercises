@@ -1,0 +1,18 @@
+		Virtual Address 0x6653:
+			--> pde index:0x19  pde contents:(0x7f, valid 0, pfn 0x7f)
+				--> Fault (page directory entry not valid)
+		Virtual Address 0x1c13:
+			--> pde index:0x07  pde contents:(0xbd, valid 1, pfn 0x3d)
+				-->pte index:0x00  pte contents:(0xf6, valid 1, pfn 0x76)
+					--> To Physical Address 0xed3 --> Value: 0x12
+		Virtual Address 0x6890:
+			--> pde index:0x1a  pde contents:(0x7f, valid 0, pfn 0x7f)
+				--> Fault (page directory entry not valid)
+		Virtual Address 0x0af6:
+			--> pde index:0x02  pde contents:(0xa1, valid 1, pfn 0x21)
+				-->pte index:0x17  pte contents:(0x7f, valid 0, pfn 0x7f)
+					--> To Disk Sector 0xff6 --> Value: 0x03
+		Virtual Address 0x1e6f:
+			--> pde index:0x07  pde contents:(0xbd, valid 1, pfn 0x3d)
+				-->pte index:0x13  pte contents:(0x16, valid 0, pfn 0x16)
+					--> To Disk Sector 0x2cf --> Value: 0x1c
